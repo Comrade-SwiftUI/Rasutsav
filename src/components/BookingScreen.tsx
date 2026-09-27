@@ -47,7 +47,7 @@ export const BookingScreen: React.FC<BookingScreenProps> = ({
   const [selectedTier, setSelectedTier] = useState<TicketTier>(TICKET_TIERS[2]); // Default 9-Night Season Pass
   const [filterType, setFilterType] = useState<'all' | 'single' | 'season'>('all');
   const [quantity, setQuantity] = useState(1);
-  const [selectedValidity, setSelectedValidity] = useState('All 9 Nights (Oct 03 - Oct 11, 2025)');
+  const [selectedValidity, setSelectedValidity] = useState('All 9 Nights (Oct 03 - Oct 11, 2026)');
   const [hasDandiya, setHasDandiya] = useState(false);
   const [hasParking, setHasParking] = useState(false);
 
@@ -67,7 +67,7 @@ export const BookingScreen: React.FC<BookingScreenProps> = ({
   const handleSelectTier = (tier: TicketTier) => {
     setSelectedTier(tier);
     if (tier.type === 'season') {
-      setSelectedValidity('All 9 Nights (Oct 03 - Oct 11, 2025)');
+      setSelectedValidity('All 9 Nights (Oct 03 - Oct 11, 2026)');
     } else {
       setSelectedValidity('Night 01 • Oct 03 (Pratipada - Opening)');
     }
@@ -88,12 +88,12 @@ export const BookingScreen: React.FC<BookingScreenProps> = ({
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#26293a] border border-[#f2ca50]/30 shadow-md mb-4">
             <Sparkles className="w-4 h-4 text-[#f2ca50]" />
             <span className="text-xs text-[#f2ca50] tracking-widest uppercase font-semibold">
-              Certified Box Office • Navratri 2025
+              Certified Box Office • Navratri 2026
             </span>
           </div>
 
           <h1 className="font-['Playfair_Display'] text-3xl sm:text-5xl lg:text-6xl font-bold text-[#e0e1f8] mb-3 tracking-tight">
-            Official Festival Passes & Season Badges 2025
+            Official Festival Passes & Season Badges 2026
           </h1>
           <p className="text-xs sm:text-base text-[#d0c5af] max-w-2xl mb-8 font-light">
             Instant RFID digital confirmation + physical holographic pass kit dispatched to your hub. Select your access tier for sacred nights of rhythm, devotion, and high-energy Garba.
@@ -402,7 +402,7 @@ export const BookingScreen: React.FC<BookingScreenProps> = ({
                     onChange={(e) => setSelectedValidity(e.target.value)}
                     className="w-full px-3 py-2.5 rounded-xl bg-[#0f1222] border border-[#26293a] text-xs text-[#e0e1f8] focus:border-[#f2ca50] outline-none cursor-pointer"
                   >
-                    <option value="All 9 Nights (Oct 03 - Oct 11, 2025)">All 9 Nights (Oct 03 - Oct 11, 2025)</option>
+                    <option value="All 9 Nights (Oct 03 - Oct 11, 2026)">All 9 Nights (Oct 03 - Oct 11, 2026)</option>
                     <option value="Night 01 • Oct 03 (Pratipada - Opening)">Night 01 • Oct 03 (Pratipada - Opening)</option>
                     <option value="Night 02 • Oct 04 (Dwitiya - Kinjal Dave)">Night 02 • Oct 04 (Dwitiya - Kinjal Dave)</option>
                     <option value="Night 03 • Oct 05 (Tritiya - Osman Mir)">Night 03 • Oct 05 (Tritiya - Osman Mir)</option>

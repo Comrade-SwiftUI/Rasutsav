@@ -72,7 +72,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-1',
     dayNumber: 1,
-    date: 'Oct 03, 2025',
+    date: 'Oct 03, 2026',
     tithi: 'Pratipada',
     title: 'Aagman & Ghatasthapana',
     description: 'Pratipada Puja, traditional sacred kalash sthapana, and inaugural 1,008-lamp lighting invocation.',
@@ -99,7 +99,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-2',
     dayNumber: 2,
-    date: 'Oct 04, 2025',
+    date: 'Oct 04, 2026',
     tithi: 'Dwitiya',
     title: 'Dandiya Dhoom',
     description: 'Fast-paced 3-taali raas sessions with explosive contemporary Gujarati folk basslines.',
@@ -125,7 +125,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-3',
     dayNumber: 3,
-    date: 'Oct 05, 2025',
+    date: 'Oct 05, 2026',
     tithi: 'Tritiya',
     title: 'Chandraghanta Raas',
     description: 'Soul-stirring spiritual melodies seamlessly transitioning into mesmerizing circular trance spins.',
@@ -151,7 +151,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-4',
     dayNumber: 4,
-    date: 'Oct 06, 2025',
+    date: 'Oct 06, 2026',
     tithi: 'Chaturthi',
     title: 'Kushmanda Euphoria',
     description: 'Modern Gujarati Bollywood fusion night featuring world instruments, brass sections, and sync drums.',
@@ -177,7 +177,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-5',
     dayNumber: 5,
-    date: 'Oct 07, 2025',
+    date: 'Oct 07, 2026',
     tithi: 'Panchami',
     title: 'Skandamata Fusion',
     description: 'Lush open-sky raas night illuminated by traditional torans, mirror-work pavilions, and brass bells.',
@@ -203,7 +203,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-6',
     dayNumber: 6,
-    date: 'Oct 08, 2025',
+    date: 'Oct 08, 2026',
     tithi: 'Shasthi',
     title: 'Katyayani Mega Night',
     description: 'The biggest viral sensation evening featuring contemporary Gujarati seafaring anthems and raas.',
@@ -229,7 +229,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-7',
     dayNumber: 7,
-    date: 'Oct 09, 2025',
+    date: 'Oct 09, 2026',
     tithi: 'Saptami',
     title: 'Kaalratri Trance',
     description: 'Traditional Saurashtra Dayro storytelling woven seamlessly into midnight devotional raas circles.',
@@ -255,7 +255,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-8',
     dayNumber: 8,
-    date: 'Oct 10, 2025',
+    date: 'Oct 10, 2026',
     tithi: 'Ashtami',
     title: 'Maha Gauri Gala',
     description: 'The Queen of Dandiya returns for the quintessential Navratri extravaganza of unmatched energy.',
@@ -281,7 +281,7 @@ export const FESTIVAL_DAYS: NavratriDay[] = [
   {
     id: 'day-9',
     dayNumber: 9,
-    date: 'Oct 11, 2025',
+    date: 'Oct 11, 2026',
     tithi: 'Navami',
     title: 'Siddhi Datri & Maha Finale',
     description: 'The majestic culmination featuring Grand Mega Aarti, 100 synchronized dhols, and royal trophy presentations.',

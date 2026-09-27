@@ -51,11 +51,11 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
   const finalTotal = taxable + gst;
 
   const handleApplyPromo = () => {
-    if (promoCode.trim().toUpperCase() === 'GARBA2025' || promoCode.trim().toUpperCase() === 'BOOKMYSHOW') {
+    if (promoCode.trim().toUpperCase() === 'GARBA2026' || promoCode.trim().toUpperCase() === 'BOOKMYSHOW') {
       setDiscountPercent(10);
       setPromoMessage('Promo Code Applied: 10% Festive Discount Activated!');
     } else {
-      setPromoMessage('Invalid code. Try "GARBA2025" for 10% off!');
+      setPromoMessage('Invalid code. Try "GARBA2026" for 10% off!');
     }
   };
 
@@ -78,7 +78,7 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
       holderPhone,
       tierName: currentTier.name,
       quantity,
-      selectedNight: selectedNight === 'all-9' ? 'All 9 Nights (Oct 03 - 11, 2025)' : selectedNight,
+      selectedNight: selectedNight === 'all-9' ? 'All 9 Nights (Oct 03 - 11, 2026)' : selectedNight,
       totalPaid: finalTotal,
       gate: currentTier.id.includes('vip') ? 'Gate 1 (Royal Red Carpet VIP)' : 'Gate 2 & 3 (Express Turnstile)',
       dateIssued: new Date().toLocaleDateString('en-IN', {
@@ -109,7 +109,7 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
               <h3 className="font-['Playfair_Display'] text-lg font-bold text-[#e0e1f8]">
                 {bookingConfirmed ? 'Official RFID E-Pass Confirmation' : 'Official Festival Ticket Desk'}
               </h3>
-              <p className="text-xs text-[#d0c5af]">Rasutsav Navratri Mahotsav 2025 • GMDC Ground</p>
+              <p className="text-xs text-[#d0c5af]">Rasutsav Navratri Mahotsav 2026 • GMDC Ground</p>
             </div>
           </div>
           <button
@@ -176,7 +176,7 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
                   onChange={(e) => setSelectedNight(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl bg-[#181b2b] border border-[#26293a] text-xs text-[#e0e1f8] focus:border-[#f2ca50] outline-none"
                 >
-                  <option value="all-9">All 9 Nights (Oct 03 - 11, 2025)</option>
+                  <option value="all-9">All 9 Nights (Oct 03 - 11, 2026)</option>
                   <option value="Night 01 • Oct 03 (Pratipada - Grand Opening)">Night 01 • Oct 03 (Pratipada - Opening)</option>
                   <option value="Night 02 • Oct 04 (Dwitiya - Kinjal Dave)">Night 02 • Oct 04 (Dwitiya - Kinjal Dave)</option>
                   <option value="Night 03 • Oct 05 (Tritiya - Osman Mir)">Night 03 • Oct 05 (Tritiya - Osman Mir)</option>
@@ -281,7 +281,7 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
                   type="text"
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value)}
-                  placeholder='Enter promo code (e.g. "GARBA2025")'
+                  placeholder='Enter promo code (e.g. "GARBA2026")'
                   className="flex-1 px-3 py-2 rounded-xl bg-[#181b2b] border border-[#26293a] text-xs text-[#e0e1f8] focus:border-[#f2ca50] outline-none uppercase"
                 />
                 <button
@@ -372,7 +372,7 @@ export const BookMyShowModal: React.FC<BookMyShowModalProps> = ({
                 <div className="flex items-center gap-2">
                   <Sparkles className="w-4 h-4 text-[#f2ca50]" />
                   <span className="font-['Playfair_Display'] font-bold text-[#f2ca50] tracking-wider uppercase text-sm">
-                    Rasutsav 2025
+                    Rasutsav 2026
                   </span>
                 </div>
                 <span className="text-[10px] px-2 py-0.5 rounded bg-[#f2ca50] text-[#3c2f00] font-bold uppercase">

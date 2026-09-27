@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 Rasutsav
               </span>
               <span className="text-[11px] sm:text-xs text-[#d0c5af] font-medium tracking-wider uppercase mt-1">
-                Navratri Mahotsav 2025
+                Navratri Mahotsav 2026
               </span>
             </div>
           </div>
@@ -157,7 +157,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Festival Date Badge */}
             <div className="hidden xl:flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#1c1f2f] border border-[#26293a] text-xs text-[#d0c5af]">
               <Calendar className="w-3.5 h-3.5 text-[#f2ca50]" />
-              <span>Oct 03 - Oct 11, 2025 • GMDC Ground</span>
+              <span>Oct 03 - Oct 11, 2026 • GMDC Ground</span>
             </div>
 
             {/* Quick Audio Beats Toggle Button */}

@@ -1,4 +1,4 @@
-# 🌸 Rasutsav Navratri Mahotsav 2025
+# 🌸 Rasutsav Navratri Mahotsav 2026
 
 > **Experience India's Grandest Navratri Celebration** — 9 Sacred Nights of Rhythm, Garba, Raas, Aarti, Live Artist Lineup, BookMyShow Ticketing Integration, Web Audio Garba Sound Station, and Google Maps Live Arena Guide.
 
@@ -27,14 +27,14 @@
 
 ## 🌟 Overview
 
-**Rasutsav Navratri Mahotsav 2025** is a modern, high-performance web application built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS v4**. It serves as the digital portal for a 9-night Navratri festival featuring headline artists (Falguni Pathak, Aditya Gadhvi, Kinjal Dave, Osman Mir, Kirtidan Gadhvi, etc.), live arena maps, box office ticket booking integration, and an in-browser Web Audio API Garba sound studio.
+**Rasutsav Navratri Mahotsav 2026** is a modern, high-performance web application built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS v4**. It serves as the digital portal for a 9-night Navratri festival featuring headline artists (Falguni Pathak, Aditya Gadhvi, Kinjal Dave, Osman Mir, Kirtidan Gadhvi, etc.), live arena maps, box office ticket booking integration, and an in-browser Web Audio API Garba sound studio.
 
 ---
 
 ## ⚡ Key Features
 
 1. **🗓️ 9-Night Detailed Festival Lineup**:
-   - Comprehensive schedule for each night (Oct 03 - Oct 11, 2025).
+   - Comprehensive schedule for each night (Oct 03 - Oct 11, 2026).
    - Tithi, auspicious color/dress code, artist bio, venue designation (AC Super-Dome vs. Open Heritage Lawn).
    - Direct audio preview integration for each night's rhythm style.
 
@@ -199,5 +199,5 @@ For a raw, structured textual mindmap and architectural blueprint of this projec
 ---
 
 <p center="true">
-  Made with ❤️ for <b>Rasutsav Navratri Mahotsav 2025</b>
+  Made with ❤️ for <b>Rasutsav Navratri Mahotsav 2026</b>
 </p>

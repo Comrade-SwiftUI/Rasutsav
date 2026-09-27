@@ -45,7 +45,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   const [isPlayingAnthem, setIsPlayingAnthem] = useState(false);
 
   useEffect(() => {
-    const festivalDate = new Date('October 03, 2025 19:30:00 GMT+0530').getTime();
+    const festivalDate = new Date('October 03, 2026 19:30:00 GMT+0530').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -109,7 +109,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#26293a]/80 border border-[#f2ca50]/30 backdrop-blur-md shadow-md mb-6">
             <Sparkles className="w-4 h-4 text-[#f2ca50]" />
             <span className="font-['Playfair_Display'] text-xs sm:text-sm text-[#f2ca50] tracking-widest uppercase font-semibold">
-              Shree Navratri Mahotsav 2025
+              Shree Navratri Mahotsav 2026
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-[#f2ca50] animate-pulse"></span>
           </div>
@@ -131,7 +131,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <div className="flex items-center gap-2 mb-3">
               <Hourglass className="w-4 h-4 text-[#f2ca50]" />
               <span className="text-xs text-[#d0c5af] uppercase tracking-widest font-semibold">
-                Shubh Muhurat Countdown • 03 October 2025
+                Shubh Muhurat Countdown • 03 October 2026
               </span>
             </div>
             <div className="grid grid-cols-4 gap-2 sm:gap-4 text-center">
@@ -263,7 +263,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               </button>
               <div className="flex flex-col pr-3">
                 <span className="text-xs font-bold text-[#e0e1f8] tracking-wide">
-                  Rasutsav Royal Anthem 2025
+                  Rasutsav Royal Anthem 2026
                 </span>
                 <span className="text-[11px] text-[#f2ca50]">
                   {isPlayingAnthem ? 'Playing: 50-Dhol Live Ensemble' : 'Listen to Live 50-Dhol Beats'}

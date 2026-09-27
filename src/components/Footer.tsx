@@ -39,7 +39,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateTab, onSelectTab }) =>
                 <span className="font-['Playfair_Display'] text-lg font-bold text-[#f2ca50] tracking-wider uppercase">
                   Rasutsav Mahotsav
                 </span>
-                <span className="text-[10px] text-[#99907c] uppercase">Navratri 2025</span>
+                <span className="text-[10px] text-[#99907c] uppercase">Navratri 2026</span>
               </div>
             </div>
 
@@ -168,7 +168,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigateTab, onSelectTab }) =>
 
         {/* Bottom Credits & Copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#99907c]">
-          <p>© 2025 Rasutsav Navratri Mahotsav. Certified by Gujarat Tourism. All rights reserved.</p>
+          <p>© 2026 Rasutsav Navratri Mahotsav. Certified by Gujarat Tourism. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <span className="hover:text-[#f2ca50] cursor-pointer transition-colors">Privacy Policy</span>
             <span>•</span>

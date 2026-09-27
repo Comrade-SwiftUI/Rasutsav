@@ -1,5 +1,5 @@
 # ==============================================================================
-# RASUTSAV NAVRATRI MAHOTSAV 2025 - HIGHER-LEVEL PROJECT STRUCTURE (.mp)
+# RASUTSAV NAVRATRI MAHOTSAV 2026 - HIGHER-LEVEL PROJECT STRUCTURE (.mp)
 # ==============================================================================
 # File: structure.mp
 # Description: Architectural Mindmap, Data Flow, Component Topology, and
@@ -7,7 +7,7 @@
 # ==============================================================================
 
 [PROJECT_METADATA]
-Name           : Rasutsav Navratri Mahotsav 2025
+Name           : Rasutsav Navratri Mahotsav 2026
 Description    : 9 Sacred Nights of Rhythm, Garba, Raas, Aarti, BookMyShow Ticketing,
                  Web Audio API Sound Station, and Google Maps Live Arena Guide.
 Core Stack     : React 19, TypeScript 5, Vite 8, Tailwind CSS v4, Motion (Framer)

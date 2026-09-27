@@ -61,7 +61,7 @@ export const LineupScreen: React.FC<LineupScreenProps> = ({
           {/* Breadcrumb & Live Status Pill */}
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex items-center gap-1.5 text-xs text-[#d0c5af]">
-              <span>Festival 2025</span>
+              <span>Festival 2026</span>
               <ChevronRight className="w-3 h-3 text-[#99907c]" />
               <span className="text-[#f2ca50] font-semibold">Official Schedule & Lineup</span>
             </div>
